@@ -22,3 +22,8 @@ document.getElementById('btn-subtract').addEventListener('click', () => {
   document.getElementById('result').textContent = subtract(a, b);
 });
 
+document.getElementById('btn-multiply').addEventListener('click', () => {
+  const a = Number(document.getElementById('a').value);
+  const b = Number(document.getElementById('b').value);
+  document.getElementById('result').textContent = multiply(a, b);
+});
